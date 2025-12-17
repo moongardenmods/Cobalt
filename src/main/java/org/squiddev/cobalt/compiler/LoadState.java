@@ -106,7 +106,7 @@ public final class LoadState {
 		return state.compiler.load(LuaC.compile(state, stream, name), env);
 	}
 
-	private static final int NAME_LENGTH = 30;
+	private static final int NAME_LENGTH = 60;
 	private static final int FILE_LENGTH = NAME_LENGTH - " '...' ".length() - 1;
 	private static final int STRING_LENGTH = NAME_LENGTH - " [string \"...\"] ".length() - 1;
 
