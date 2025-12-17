@@ -137,21 +137,21 @@ publishing {
 			pom {
 				name = "Cobalt"
 				description = "A reentrant fork of LuaJ for Lua 5.2"
-				url = "https://github.com/cc-tweaked/Cobalt"
+				url = "https://github.com/moongardenmods/Cobalt"
 
 				scm {
-					url = "https://github.com/cc-tweaked/Cobalt.git"
+					url = "https://github.com/moongardenmods/Cobalt.git"
 				}
 
 				issueManagement {
 					system = "github"
-					url = "https://github.com/cc-tweaked/Cobalt/issues"
+					url = "https://github.com/moongardenmods/Cobalt/issues"
 				}
 
 				licenses {
 					license {
 						name = "MIT"
-						url = "https://github.com/cc-tweaked/Cobalt/blob/master/LICENSE"
+						url = "https://github.com/moongardenmods/Cobalt/blob/master/LICENSE"
 					}
 				}
 			}
@@ -159,8 +159,8 @@ publishing {
 	}
 
 	repositories {
-		maven("https://maven.squiddev.cc") {
-			name = "SquidDev"
+		maven("https://maven.hugeblank.dev") {
+			name = "hugeblank"
 			credentials(PasswordCredentials::class)
 		}
 	}

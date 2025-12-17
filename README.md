@@ -1,4 +1,7 @@
 # Cobalt
+
+**Note: This is a fork of the original, [found here](https://github.com/cc-tweaked/Cobalt)!**
+
 Cobalt is a Lua implementation for Java, designed for use in the Minecraft mod
 [CC: Tweaked]. It is based on [LuaJ 2.0][LuaJ], though has diverged
 significantly over the years.
