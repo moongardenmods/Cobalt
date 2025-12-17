@@ -159,7 +159,7 @@ publishing {
 	}
 
 	repositories {
-		maven("https://maven.hugeblank.dev") {
+		maven("https://maven.hugeblank.dev/releases") {
 			name = "hugeblank"
 			credentials(PasswordCredentials::class)
 		}
