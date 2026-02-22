@@ -160,16 +160,16 @@ publishing {
 
 	repositories {
 		maven {
-			name = "hugeblankRelease"
-			url = uri("https://maven.hugeblank.dev/releases")
+			name = "moongardenRelease"
+			url = uri("https://maven.moongarden.dev/releases")
 			credentials(PasswordCredentials::class)
 			authentication {
 				create<BasicAuthentication>("basic")
 			}
 		}
 		maven {
-			name = "hugeblankSnapshot"
-			url = uri("https://maven.hugeblank.dev/snapshots")
+			name = "moongardenSnapshot"
+			url = uri("https://maven.moongarden.dev/snapshots")
 			credentials(PasswordCredentials::class)
 			authentication {
 				create<BasicAuthentication>("basic")
