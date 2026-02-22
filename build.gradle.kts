@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "cc.tweaked"
-version = "0.9.7"
+version = "0.9.7-allium.1"
 
 java {
 	toolchain {
